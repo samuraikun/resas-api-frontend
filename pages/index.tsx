@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { FC } from 'react'
 import gql from 'graphql-tag'
-import Layout from '../components/Layout'
-import apolloClient from '../utils/apollo-client';
+import Layout from 'components/Layout'
+import apolloClient from 'utils/apollo-client';
 
 apolloClient.query({
   query: gql`
