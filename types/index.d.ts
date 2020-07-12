@@ -127,8 +127,8 @@ export type QueryWagesArgs = {
 
 export type Prefecture = {
   __typename?: 'Prefecture';
-  prefCode?: Maybe<Scalars['Int']>;
-  prefName?: Maybe<Scalars['String']>;
+  prefCode?: Scalars['Int'];
+  prefName?: Scalars['String'];
 };
 
 export type City = {
