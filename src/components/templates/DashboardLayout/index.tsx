@@ -1,5 +1,5 @@
 import React, { FC, Fragment } from 'react'
-import DashboardSidebar from 'components/organisms/DashboardSidebar/index'
+import DashboardSidebar from 'src/components/organisms/DashboardSidebar/index'
 
 const DashboardLayout: FC = ({ children }) => (
   <Fragment>
